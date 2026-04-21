@@ -1,0 +1,16 @@
+/* Remove underline from the site title */
+.brand h1 a {
+    text-decoration: none;
+    background-image: none;
+}
+
+/* Ensure post metadata respects the Tufte main column width so margin notes work */
+.content-meta p {
+    width: 55%;
+}
+
+@media screen and (max-width: 760px) {
+    .content-meta p {
+        width: 90%;
+    }
+}

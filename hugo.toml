@@ -1,0 +1,34 @@
+baseURL = 'https://kmaitreys.github.io/blog/'
+languageCode = 'en-us'
+title = 'the midnight fugue'
+theme = "hugo-tufte"
+
+paginate = 10
+
+[params]
+subtitle = "and the things that come after the oil"
+showSummary = true
+math = true
+marginNoteInd = "⊕"
+showPoweredBy = false
+favicon = "./favicon.png"
+
+[taxonomies]
+  tag = "tags"
+[menu]
+[[menu.nav]]
+name = "Home"
+weight = -110
+identifier = "home"
+url = "/"
+[[menu.nav]]
+name = "Posts"
+weight = -100
+identifier = "posts"
+url = "/posts/"
+[[menu.nav]]
+  name = "Tags"
+  weight = -80
+  identifier = "tags"
+  url = "/tags/"
+
