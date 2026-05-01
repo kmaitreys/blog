@@ -14,7 +14,7 @@ showPoweredBy = false
 favicon = "./favicon.png"
 
 [taxonomies]
-  tag = "tags"
+tag = "tags"
 [menu]
 [[menu.nav]]
 name = "Home"
@@ -27,8 +27,7 @@ weight = -100
 identifier = "posts"
 url = "/posts/"
 [[menu.nav]]
-  name = "Tags"
-  weight = -80
-  identifier = "tags"
-  url = "/tags/"
-
+name = "Tags"
+weight = -80
+identifier = "tags"
+url = "/tags/"
